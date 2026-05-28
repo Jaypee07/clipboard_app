@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Snippet
 
-# Register your models here.
+# This line registers your table with the dashboard
+admin.site.register(Snippet)
